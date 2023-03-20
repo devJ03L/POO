@@ -1,5 +1,6 @@
 ﻿using POO.fechas;
 using POO.Figuras;
+using POO.Colecciones;
 
 Console.WriteLine("**************");
 //TestFecha.Ejecutar();
@@ -7,5 +8,6 @@ Console.WriteLine("**************");
 //TestPolimorfismo.Ejecutar();
 //TestMuestraConjunto.Ejecutar();
 //TestFechaHora.Ejecutar();
-TestFiguras.Ejecutar();
+//TestFiguras.Ejecutar();
+TestMiColeccion.Ejecutar();
 Console.WriteLine("**************");
