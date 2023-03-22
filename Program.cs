@@ -1,6 +1,7 @@
-﻿using POO.fechas;
-using POO.Figuras;
-using POO.Colecciones;
+﻿//using POO.fechas;
+//using POO.Figuras;
+//using POO.Colecciones;
+using POO.Interfaces;
 
 Console.WriteLine("**************");
 //TestFecha.Ejecutar();
@@ -9,5 +10,7 @@ Console.WriteLine("**************");
 //TestMuestraConjunto.Ejecutar();
 //TestFechaHora.Ejecutar();
 //TestFiguras.Ejecutar();
-TestMiColeccion.Ejecutar();
+//TestMiColeccion.Ejecutar();
+//TestCola.Ejecutar();
+TestOrdenar.Ejecutar();
 Console.WriteLine("**************");

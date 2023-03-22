@@ -35,7 +35,7 @@ namespace POO.Colecciones
         public T eliminar(int i)
         {
             Object aux = datos[i];
-            for (int j = i; j > len - 1; j++)
+            for (int j = i; j < len - 1; j++)
                 datos[j] = datos[j + 1];
             len--;
 
