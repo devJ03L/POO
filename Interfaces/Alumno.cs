@@ -1,6 +1,6 @@
 namespace POO.Interfaces
 {
-    public class Alumno : IComparable
+    public class Alumno// : IComparable
     {
         private string Nombre;
         private int Edad;
@@ -19,11 +19,11 @@ namespace POO.Interfaces
         public string getNombre() => Nombre;
         public int getEdad() => Edad;
         public double getNotaPromedio() => NotaPromedio;
-        public int CompareTo(object? obj)
-        {
-            if (obj == null) return 1;
-            Alumno otroAlumno = (Alumno)obj;
-            return this.Edad - otroAlumno.Edad;
-        }
+        // public int CompareTo(object? obj)
+        // {
+        //     if (obj == null) return 1;
+        //     Alumno otroAlumno = (Alumno)obj;
+        //     return this.Edad - otroAlumno.Edad;
+        // }
     }
 }

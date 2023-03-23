@@ -1,8 +1,8 @@
 namespace POO.Interfaces
 {
-    public class Util
+    public class Util<T>
     {
-        public static void Ordenar(object[] arr, Criterio cr)
+        public static void Ordenar(T[] arr, Criterio<T> cr)
         {
             bool ordenado = false;
             while (!ordenado)
@@ -12,7 +12,7 @@ namespace POO.Interfaces
                 {
                     if (cr.comparar(arr[i + 1], arr[i]) < 0)
                     {
-                        object aux = arr[i];
+                        T aux = arr[i];
                         arr[i] = arr[i + 1];
                         arr[i + 1] = aux;
                         ordenado = false;

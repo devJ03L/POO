@@ -10,8 +10,15 @@ namespace POO.Interfaces
                 new Alumno("Alberto", 19, 4.6),
             };
 
-            Util.Ordenar(arr, new CriterioAlumNombre());
-            Array.ForEach(arr, x => Console.WriteLine(x));
+            // Util<Alumno>.Ordenar(arr, new CriterioAlumNombre());
+            // Array.ForEach(arr, x => Console.WriteLine(x));
+
+            // Util<Alumno>.Ordenar(arr, new CriterioAlumNotaProm());
+            // Array.ForEach(arr, x => Console.WriteLine(x));
+
+            int[] arrInt = { 10, 3, 7, 5, 4, 8, 2, 61, 736, 456 };
+            Util<int>.Ordenar(arrInt, new CriterioInt());
+            Array.ForEach(arrInt, x => Console.WriteLine(x));
 
             //Array de strings
             // string[] arrStr = { "Pablo", "Andres", "Marcelo" };
