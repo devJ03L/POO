@@ -1,16 +1,14 @@
-namespace POO.fechas
+namespace POO.fechas;
+public class TestFechaDetallada
 {
-    public class TestFechaDetallada
+    public static void Ejecutar()
     {
-        public static void Ejecutar()
-        {
-            FechaDetallada f = new FechaDetallada();
-            
-            f.setDia(25);
-            f.setMes(10);
-            f.setAnio(2009);
+        FechaDetallada f = new FechaDetallada();
 
-            Console.WriteLine(f);
-        }
+        f.setDia(25);
+        f.setMes(10);
+        f.setAnio(2009);
+
+        Console.WriteLine(f);
     }
 }

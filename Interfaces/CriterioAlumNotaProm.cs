@@ -1,8 +1,6 @@
-namespace POO.Interfaces
+namespace POO.Interfaces;
+public class CriterioAlumNotaProm : Criterio<Alumno>
 {
-    public class CriterioAlumNotaProm : Criterio<Alumno>
-    {
-        public override int comparar(Alumno a, Alumno b) => 
-            a.getNotaPromedio().CompareTo(b.getNotaPromedio());
-    }
+    public override int comparar(Alumno a, Alumno b) =>
+        a.getNotaPromedio().CompareTo(b.getNotaPromedio());
 }

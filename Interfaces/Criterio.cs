@@ -1,7 +1,5 @@
-namespace POO.Interfaces
+namespace POO.Interfaces;
+public abstract class Criterio<T>
 {
-    public abstract class Criterio<T>
-    {
-        public abstract int comparar(T a, T b);
-    }
+    public abstract int comparar(T a, T b);
 }

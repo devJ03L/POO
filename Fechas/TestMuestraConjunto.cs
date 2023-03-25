@@ -1,17 +1,15 @@
-namespace POO.fechas
+namespace POO.fechas;
+public class TestMuestraConjunto
 {
-    public class TestMuestraConjunto
+    public static void Ejecutar()
     {
-        public static void Ejecutar()
-        {
-            Object[] arr = {
+        Object[] arr = {
                 new Fecha(2,10,1968),
                 new FechaDetallada(2,10,1968),
                 new String("Hola Sultan"),
                 179
             };
 
-            MuestraConjunto.mostrar(arr);
-        }
+        MuestraConjunto.mostrar(arr);
     }
 }
