@@ -5,9 +5,9 @@ public class TestFechaDetallada
     {
         FechaDetallada f = new FechaDetallada();
 
-        f.setDia(25);
-        f.setMes(10);
-        f.setAnio(2009);
+        f.dia = 25;
+        f.mes = 10;
+        f.anio = 2009;
 
         Console.WriteLine(f);
     }

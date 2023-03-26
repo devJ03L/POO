@@ -20,6 +20,6 @@ public class FechaDetallada : Fecha
     public FechaDetallada(int d, int m, int a) : base(d, m, a) { }
 
     public override string ToString() =>
-        getDia() + " de " + meses[getMes() - 1] + " de " + getAnio();
+        dia + " de " + meses[mes - 1] + " de " + anio;
 
 }

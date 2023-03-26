@@ -1,9 +1,21 @@
 ﻿namespace POO.fechas;
 public class Fecha
 {
-    private int dia;
-    private int mes;
-    private int anio;
+    public int dia
+    {
+        get => dia;
+        set => dia = value;
+    }
+    public int mes
+    {
+        get => mes;
+        set => mes = value;
+    }
+    public int anio
+    {
+        get => anio;
+        set => anio = value;
+    }
     public Fecha() { }
     public Fecha(int d, int m, int a)
     {
@@ -25,13 +37,6 @@ public class Fecha
         String sAnio = s.Substring(pos2 + 1);
         anio = int.Parse(sAnio);
     }
-    public int getDia() => dia;
-    public void setDia(int dia) => this.dia = dia;
-    public int getMes() => mes;
-    public void setMes(int mes) => this.mes = mes;
-    public int getAnio() => anio;
-    public void setAnio(int anio) => this.anio = anio;
-
     public override string ToString() => dia + "/" + mes + "/" + anio;
     private int fechaToDias() => anio * 360 + mes * 30 + dia;
     private void diasToFecha(int i)
