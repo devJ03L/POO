@@ -2,6 +2,7 @@
 //using POO.Figuras;
 //using POO.Colecciones;
 //using POO.Interfaces;
+using POO.Tools;
 
 Console.WriteLine("**************");
 //TestFecha.Ejecutar();
@@ -14,4 +15,5 @@ Console.WriteLine("**************");
 //TestCola.Ejecutar();
 //TestOrdenar.Ejecutar();
 
+Console.WriteLine(Test.ComputedArea(new Circle() { Radius = 5 }));
 Console.WriteLine("**************");
